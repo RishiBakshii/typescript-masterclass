@@ -1,0 +1,4 @@
+run the command "tsc -init" ( this will generate a new file 'tsconfig.json)
+inside the dist tsconfig.json change the output dir path according
+
+"tsc -w" this command means typescript is now wathicn the file and as soon the file changes it will reflect in the output js file
