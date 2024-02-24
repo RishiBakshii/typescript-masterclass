@@ -10,9 +10,11 @@ abstract class TakePhoto{
     ){}
     
     // so just like in interface we can say that there shoudl be a function but actually dont give any function declartioun( what it does), so just like in abstract class we have to add the keywrod absstract before it and then it also acts like a interface function declaration that we dont know what the function woudl do but there shoudl be a function named the same and witht the same return type
+    // if we want to make same methods compulsory we can mark them as abstract
     abstract getSepia():void
     
     // this creates a difference between abstract classes and interface as because we are also able to define the function declaration but in interfaces we can't
+    // we an also override this method
     getReelTime():number{
         // some complex calculation
         return 8
